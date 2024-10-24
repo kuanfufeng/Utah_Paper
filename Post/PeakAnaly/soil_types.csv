@@ -1,0 +1,31 @@
+stnm,lon,lat,elev,musurftexgrp,Annual amp
+RDMU,-109.57,40.571,2087,clay,0.4
+LCMT,-113.244,37.012,1411,clay loam,0.39
+HMU,-110.742,37.938,2430,cobbly loam,0.23
+SPU,-112.449,41.309,2086,cobbly loam,0.43
+JLU,-111.45,40.602,2285,cobbly sandy loam,0.89
+DUG,-112.8133,40.195,1477,fine sandy loam,0.19
+CVRU,-111.172,38.918,1912,gravelly fine sandy loam,0.4
+MTPU,-112.184,38.041,3112,gravelly fine sandy loam,0.09
+LIUT,-110.325,39.424,2178,gravelly loam,0.84
+SWUT,-113.195,39.329,1644,gravelly loam,0.37
+TCU,-111.408,41.117,2269,gravelly loam,0.5
+HVU1,-112.775,41.78,1609,gravelly silt loam,1
+HVU2,-112.775,41.78,1609,gravelly silt loam,1
+BRPU,-110.74,39.473,1687,loam,0.28
+CTU,-111.75,40.693,1731,loam,1.16
+HWUT,-111.5652,41.6069,1830,loam,0.34
+PNSU,-110.246,39.628,2743,loam,0.17
+BSUT,-110.761,40.536,3211,null,0.82
+FOR1,-113.094,38.369,1642,null,0.25
+PSUT,-113.855,38.534,1999,null,0.11
+SRU,-110.524,39.111,1804,null,0.81
+TCRU,-112.447,38.609,2293,null,0.24
+BGU,-113.03,40.921,1640,very cobbly loam,0.45
+FORU,-112.861,38.459,1840,very cobbly loam,0.64
+NLU,-112.075,39.955,2036,very cobbly loam,0.22
+NOQ,-112.12,40.653,1622,very cobbly loam,0.57
+MPU,-111.633,40.016,1909,very stony loam,0.58
+VRUT1,-113.857,37.462,1874,very stony loam,0.2
+VRUT2,-113.857,37.462,1874,very stony loam,0.2
+SZCU,-113.088,37.595,2026,very stony sandy loam,0.4
