@@ -8,7 +8,6 @@ NCFs data stored at Harvard Dataverse: https://doi.org/10.7910/DVN/YCAAS4
 - Folder `Post/ModelFit` contains the scripts for model fitting. 
 - Folder `MatCC` has the scripts and notebook for correlation between dv/v and each potential influencing factor. 
 - Folder `Post/PeakAnaly` has the files and a notebook for analyzing/visualizing peak-to-peak analyses. 
-- Folder `Post/Plotting` has the notebooks for plotting fitting results and AIC_BIC results. 
-
-
-
+- Folder `Post/Plotting` has notebooks for plotting fitting results and AIC_BIC results. 
+- Folder `SensKernels` has notebooks and CSV files for calculating sensitivity kernels.
+- 
