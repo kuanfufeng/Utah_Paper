@@ -1,4 +1,4 @@
-# Utah_dv_Paper
+## Utah Paper: monitoring of subsurface hydrological seismic velocity responses
 
 
 NCFs data stored at Harvard Dataverse: https://doi.org/10.7910/DVN/YCAAS4
