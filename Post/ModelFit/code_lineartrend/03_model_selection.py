@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 
 stnm=sys.argv[1]
 modelcase=["soil","temp","soil_temp"] #,"snow","soil_snow","temp_snow","soil_temp_snow"]
-#nump=[4,5,6]
-nump=[3,4,5]
+nump=[1,2,3,1,2,3,4]
 
 n=0
 opaic=np.array(range(len(modelcase)))
@@ -17,7 +16,6 @@ fname="AICBIC_"+stnm.strip()+".csv"
 f=open(fname,'w')
 print("stan,modelcase,aic,bic,numpara")
 f.write("stan,modelcase,aic,bic,numpara\n")
-plt.figure(figsize=(4,4))
 for mod in modelcase:
     uu=pd.read_csv('./BestFit_csv/Fit_'+stnm+'_'+mod+'.csv', sep=',')
     df_uu = pd.DataFrame(uu)
@@ -30,6 +28,7 @@ for mod in modelcase:
     num_parameters = nump[n]
     # Calculate the AIC
     aic =  len(x) * np.log(log_likelihood) + 2 * num_parameters
+    
     # Calculate the BIC
     bn = len(y)  # Number of data points
     bic = len(x) * np.log(log_likelihood) + num_parameters * np.log(bn)
@@ -39,13 +38,12 @@ for mod in modelcase:
     n=n+1
     f.write(line+"\n")
 
-    plt.plot(aic,bic,label=str(mod),marker='o', alpha=0.5)
+    plt.plot(aic,bic,label=str(mod),marker='o')
 
 figname='AB_'+stnm+'_fitdv.png'
 plt.title(stnm)
 plt.xlabel("AIC value")
 plt.ylabel("BIC value")
-plt.tight_layout()
 plt.legend()
 plt.savefig(figname)
 
